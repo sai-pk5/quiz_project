@@ -1,0 +1,41 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 1.2rem;
+   
+    font-size: 1.5rem;
+    width: 80%;
+    border-radius: 4px;
+    background-color: cornsilk;
+}
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    color: cornsilk;
+    font-size: 1.8rem;
+    background-color: blue;
+}
+.choice-text{
+    padding: 1.5rem;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(30, 30, 192,0.5);
+    transform: translateY(-0.2rem);
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+#progressbar{
+    margin-top: 8px;
+    width:20rem;
+    height:3rem;
+    border: 3px solid rgb(60, 10, 241);
+    margin-bottom: 6px;
+}
+#progressbar-full{
+    height: 2.4rem;
+    background-color: mediumseagreen;
+    width:0%;
+}
